@@ -1,7 +1,15 @@
 # figtest
 
-Check a figma file into main
-Then branch it
-Make changes in the branch
-Check them in
-Go back to main and see if the original was preserved
+
+Steps:
+# Create you figma file
+# Save local copy of figma file:
+<img width="442" height="429" alt="image" src="https://github.com/user-attachments/assets/65ea3358-4892-45a0-a7bf-d3aff1e7b941" />
+# Commit changes
+* Create a branch off of main
+* Import the file into figma while on the new branch
+  * If you have figma desktop, just open the file
+  * If you use figma.com, choose import button from the top right of the main page
+<img width="907" height="599" alt="image" src="https://github.com/user-attachments/assets/3a39fd4c-b11f-4dd8-8ab6-2bd941153a68" />
+* Repeat steps 1-3
+* You now have multiple versions of your figma in git
